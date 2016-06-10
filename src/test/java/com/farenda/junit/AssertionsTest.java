@@ -23,6 +23,7 @@ public class AssertionsTest {
     @Test
     public void shouldShowInequality(){
         assertNotEquals(3,2+2);
+        assertNotEquals("Close, but no.", 3.14, 3.1415, 0.0001);
     }
 
 }
